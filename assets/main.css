@@ -1,0 +1,27 @@
+body {
+  background: url("https://hdwallsource.com/img/2018/5/spongebob-bikini-bottom-wallpaper-63311-65364-hd-wallpapers.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.jumbotron {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.thumbnail {
+  background: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-weight: bold;
+}
+
+.thumbnail img {
+  width: 350px;
+  height: 264px;
+}
