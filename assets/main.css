@@ -2,13 +2,13 @@ body {
   background-color: black;
 }
 
-@media (min-width: 577px){
+@media (min-width: 1080px){
   .jumbotron > h4::after {
     content: 'A website with my all-time favorite artists, albums and tracks';
   }
 }
 
-@media (max-width: 576px){
+@media (max-width: 1079px){
     .jumbotron > h4::after{
       content: 'Fav artists, albums, tracks';
     }
@@ -32,13 +32,10 @@ body {
   font-weight: bold;
 }
 
-.row {
-  margin: 50px auto;
-}
-
 .card {
   margin-right: 50px;
   margin-bottom: 50px;
+  float: left;
 }
 
 .card-text {
@@ -46,6 +43,17 @@ body {
   font-weight: bold;
 }
 
-.col-12 {
-margin: width / 2;
+.figure {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.figure-caption {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-md-12 .img-fluid.rounded {
+  width: 450px;
 }
