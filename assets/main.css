@@ -1,37 +1,51 @@
-
 body {
-  background: url("https://hdwallsource.com/img/2018/5/spongebob-bikini-bottom-wallpaper-63311-65364-hd-wallpapers.jpg");
-  background-size: cover;
-}
-h1 {
-  font-size: 50px;
+  background-color: black;
 }
 
-h3 {
-  font-size: 20px;
+@media (min-width: 577px){
+  .jumbotron > h4::after {
+    content: 'A website with my all-time favorite artists, albums and tracks';
+  }
 }
 
-.jumbotron {
-  background: rgba(255, 255, 255, 0.5);
+@media (max-width: 576px){
+    .jumbotron > h4::after{
+      content: 'Fav artists, albums, tracks';
+    }
 }
 
-.card {
-  margin: 50px;
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.card-text {
-  font-weight: bold;
+.jumbotron{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   text-align: center;
 }
 
-.card-img-top {
-  height: 200px;
+.jumbotron > h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
 }
 
-.col-3 {
-  height: auto;
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 40px;
-  padding: 25px;
+.container-fluid{
+  margin: 0 auto;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+
+.row {
+  margin: 50px auto;
+}
+
+.card {
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.card-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-12 {
+margin: width / 2;
 }
