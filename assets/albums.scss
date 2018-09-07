@@ -1,0 +1,77 @@
+$favColor: green;
+$leastFavColor: red;
+
+body {
+  background-color: black;
+}
+.container-fluid {
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 3rem;
+  background-color: white;
+  max-width: 70rem;
+  border-radius: 1.5rem;
+}
+
+nav {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+img {
+  width: 10rem;
+  border-radius: 1rem;
+  border: 0.25rem solid black;
+  margin-bottom: 4rem;
+}
+
+div {
+  h3 {
+    padding-left: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}
+
+.container-fluid {
+  div {
+    h3 {
+      margin: 1rem;
+    }
+  }
+}
+
+.fav {
+  color: $favColor;
+  font-weight: bold;
+}
+
+.least-fav {
+  color: $leastFavColor;
+  font-style: italic;
+}
+
+h3 {
+  span {
+    font-style: italic;
+  }
+}
+
+footer {
+  @extend nav;
+    #green {
+      color: green;
+      font-weight: bold;
+    }
+
+    #red {
+      color: red;
+      font-style: italic;
+    }
+
+    margin-bottom: 0;
+}
