@@ -1,0 +1,49 @@
+html, body {
+  position: relative; }
+
+body {
+  background-color: black; }
+
+.navbar-brand {
+  font-weight: bold; }
+
+.figure {
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 auto; }
+
+.figure-caption {
+  color: black;
+  text-align: center;
+  font-weight: bold; }
+
+.table {
+  background-color: white;
+  text-align: center;
+  margin: 0 auto; }
+
+.container div {
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px; }
+
+.artist-header {
+  width: 96%;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin: 0 auto;
+  margin-left: 25px; }
+
+.artist-header h1 {
+  margin: auto;
+  text-align: center; }
+
+.container {
+  margin-top: 25px; }
+
+.artist-figure img {
+  width: 500px; }
+
+.figure {
+  margin: 0 auto; }
+
+/*# sourceMappingURL=artists.css.map */

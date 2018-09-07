@@ -1,3 +1,7 @@
+html, body {
+  position: relative;
+}
+
 body {
   background-color: black;
 }
@@ -32,20 +36,11 @@ body {
   font-weight: bold;
 }
 
-.card {
-  margin-right: 50px;
-  margin-bottom: 50px;
-  float: left;
-}
-
-.card-text {
-  text-align: center;
-  font-weight: bold;
-}
-
 .figure {
   background-color: white;
   border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .figure-caption {
