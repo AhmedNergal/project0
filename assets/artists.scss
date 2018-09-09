@@ -60,22 +60,31 @@ div {
     width: 30rem;
   }
 }
-
+/*
 @media (max-width: 600px){
+  .artist-header {
+    width: 23rem;
+    h1 {
+      font-size: 0.75rem;
+    }
+  }
   .table {
     margin-left: 2.2rem;
+    width: 20rem;
   }
   .artist-figure {
     img {
-      width: 26rem;
+      width: 20rem;
     }
   }
   .col {
     .figure {
       margin-left: 4rem;
+      font-size: 0.25rem;
     }
   }
 }
+*/
 .figure {
   margin: 0 auto;
 }
