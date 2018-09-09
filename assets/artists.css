@@ -18,20 +18,24 @@ body {
   font-weight: bold; }
 
 .table {
+  width: 95%;
   background-color: white;
-  text-align: center;
-  margin: 0 auto; }
+  text-align: center; }
 
-.container div {
-  margin-left: 25px;
-  margin-bottom: 25px;
-  margin-right: 25px; }
+@media (max-width: 600px) {
+  .table {
+    margin-left: 2.2rem; } }
+div .figure {
+  margin-left: 1.8rem;
+  margin-bottom: 1.8rem;
+  margin-right: 1.8rem; }
 
 .artist-header {
-  width: 96%;
+  width: 95%;
   background-color: rgba(255, 255, 255, 0.75);
   margin: 0 auto;
-  margin-left: 25px; }
+  margin-left: 1.8rem;
+  margin-bottom: 2rem; }
 
 .artist-header h1 {
   margin: auto;
@@ -41,7 +45,7 @@ body {
   margin-top: 25px; }
 
 .artist-figure img {
-  width: 500px; }
+  width: 30rem; }
 
 .figure {
   margin: 0 auto; }

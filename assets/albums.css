@@ -22,6 +22,12 @@ img {
   border: 0.25rem solid black;
   margin-bottom: 4rem; }
 
+@media (max-width: 600px) {
+  img {
+    width: 8rem;
+    border-radius: 0.75rem;
+    border-radius: 0.15rem solid black;
+    margin-bottom: 3rem; } }
 div h3 {
   padding-left: 2rem;
   font-size: 3rem;
