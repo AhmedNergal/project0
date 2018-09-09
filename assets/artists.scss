@@ -28,12 +28,6 @@ body {
   text-align: center;
 }
 
-@media (max-width: 600px){
-  .table {
-    margin-left: 2.2rem;
-  }
-}
-
 div {
   .figure {
     margin-left: 1.8rem;
@@ -67,6 +61,21 @@ div {
   }
 }
 
+@media (max-width: 600px){
+  .table {
+    margin-left: 2.2rem;
+  }
+  .artist-figure {
+    img {
+      width: 26rem;
+    }
+  }
+  .col {
+    .figure {
+      margin-left: 4rem;
+    }
+  }
+}
 .figure {
   margin: 0 auto;
 }
